@@ -1,0 +1,3 @@
+com\kata\user\endToEnd\UserEndToEndTest.class
+com\kata\user\service\UserServiceTest.class
+com\kata\user\web\UserControllerTest.class
