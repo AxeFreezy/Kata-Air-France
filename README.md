@@ -28,7 +28,7 @@ d'exécution des requêtes HTTP.
 
 Une fonction de gestion d'erreur est également implémentée avec un ErrorHandler adapté.
 
-Importer la collection Postman pour les différentes routes afin de tester les fonctionnalités du code.
+Importer la collection Postman pour les différentes routes afin de tester les fonctionnalités du code. (Kata_Air_France_Collection_Test.postman_collection.json)
 
 # Contact
 
