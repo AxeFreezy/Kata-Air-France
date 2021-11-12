@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "84d959fb-4e38-4da3-8ada-47bd86099c13",
+		"name": "Kata Air France Collection Test",
+		"description": "Vous trouverez ci-joint les différentes routes afin de tester les fonctionnalités du code.\n\nVous pourrez voir les réponses associées en fonction des entrées.\n\nPort: 8081\n\nAuteur: Axel ABOYEJI\n\nContact : axel.aboyeji@axileo.fr",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8081/user/create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Niels Jasserand\",\r\n    \"birthDate\": \"1980-12-20\",\r\n    \"country\": \"France\",\r\n    \"phoneNumber\": \"0102030405\",\r\n    \"gender\": \"male\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/user/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"user",
+						"create"
+					]
+				},
+				"description": "Creer un utilisateur"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/user/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/user/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"user",
+						"1"
+					]
+				},
+				"description": "Recuperer un utilisateur"
+			},
+			"response": []
+		}
+	]
+}
